@@ -1,0 +1,28 @@
+{
+  "name": "rest-tasks",
+  "version": "1.0.0",
+  "description": "This is repo with simple POST / GET tasks infrastructure",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "start": "forever start server.js",
+    "stop": "forever stopall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PolinaShneider/rest-tasks.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PolinaShneider/rest-tasks/issues"
+  },
+  "homepage": "https://github.com/PolinaShneider/rest-tasks#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "forever": "^4.0.3"
+  }
+}
