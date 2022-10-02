@@ -13,7 +13,9 @@
 fetch(`<адрес>`, {
     method: 'POST',
     headers: {
-      Authorization: "Bearer: PolinaShneider"
+      'Accept': 'application/json',
+      'Content-Type': 'application/json',
+      'Authorization': 'Bearer: PolinaShneider'
     },
     body: JSON.stringify({text: "Hello"}),
 })
